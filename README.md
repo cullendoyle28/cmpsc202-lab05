@@ -81,4 +81,4 @@ It is not possible for the graph to be connected. For the graph to be connected,
 
 2. A tree is a connected graph with no cycles. If you take an existing tree and add exactly one new edge between two non-adjacent vertices, what structural property is immediately violated?
 
-You've created a cycle at that point, so the graph would no longer be a tree.
+You've created a cycle at that point, so the graph would no longer be a tree. Imagine you have a vertex (1) -> (2) and (3) -> (1). Then create an edge between (2) and (3). So, (2) -> (3). There's now a cycle: (1) -> (2) -> (3) -> (1).
